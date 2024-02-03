@@ -1,0 +1,309 @@
+@import url("../bootstrap/css/bootstrap-grid.css");
+@import url("../bootstrap/css/bootstrap-grid.css.map");
+@import url("../bootstrap/css/bootstrap-grid.min.css");
+@import url("../bootstrap/css/bootstrap-grid.min.css.map");
+@import url("../bootstrap/css/bootstrap-reboot.css");
+@import url("../bootstrap/css/bootstrap-reboot.css.map");
+@import url("../bootstrap/css/bootstrap-reboot.min.css");
+@import url("../bootstrap/css/bootstrap-reboot.min.css.map");
+@import url("../bootstrap/css/bootstrap.css");
+@import url("../bootstrap/css/bootstrap.css.map");
+@import url("../bootstrap/css/bootstrap.min.css");
+@import url("../bootstrap/css/bootstrap.min.css.map");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  /* overflow-x: hidden; */
+}
+.common-button {
+  background-color: #9b0242;
+  color: #fff;
+  border: 1px solid #9b0242;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+.button-outline {
+  background-color: transparent;
+  color: #9b0242;
+  border: 1px solid #9b0242;
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s ease-in-out;
+}
+
+.common-button:focus {
+  outline: none;
+}
+
+.button-outline:focus {
+  outline: none;
+}
+.w-75 {
+  width: 75%;
+}
+.w-50 {
+  width: 50%;
+}
+.w-38 {
+  width: 38%;
+}
+.w-25 {
+  width: 25%;
+}
+.w-100 {
+  width: 100%;
+}
+.w-200 {
+  width: 200px;
+}
+.w-300 {
+  width: 300px;
+}
+.w-400 {
+  width: 400px;
+}
+.w-500 {
+  width: 500px;
+}
+.w-600 {
+  width: 600px;
+}
+.w-700 {
+  width: 700px;
+}
+.text-center {
+  text-align: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+.mt-20 {
+  margin-top: 20px;
+}
+.mt-30 {
+  margin-top: 30px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+.ml-20 {
+  margin-left: 20px;
+}
+.ml-30 {
+  margin-left: 30px;
+}
+.ml-40 {
+  margin-left: 40px;
+}
+.ml-50 {
+  margin-left: 50px;
+}
+.ml-60 {
+  margin-left: 60px;
+}
+.fs-100 {
+  font-size: 100px;
+}
+.fs-90 {
+  font-size: 90px;
+}
+.fs-80 {
+  font-size: 80px;
+}
+
+.fs-70 {
+  font-size: 70px;
+}
+.fs-65 {
+  font-size: 65px;
+}
+.fs-60 {
+  font-size: 60px;
+}
+.fs-50 {
+  font-size: 50px;
+}
+
+.fs-40 {
+  font-size: 40px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.fs-12 {
+  font-size: 12px;
+}
+.fs-10 {
+  font-size: 10px;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-200 {
+  font-weight: 200;
+}
+.fw-100 {
+  font-weight: 100;
+}
+.fc-black {
+  color: #000;
+}
+.fc-white {
+  color: #fff;
+}
+.fc-sub {
+  color: #414141;
+}
+
+.d-flex {
+  display: flex;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+.gap-20 {
+  gap: 20px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-stretch {
+  align-items: stretch;
+}
+.align-items-baseline {
+  align-items: baseline;
+}
+.align-content-center {
+  align-content: center;
+}
+.align-content-start {
+  align-content: flex-start;
+}
+.align-content-end {
+  align-content: flex-end;
+}
+.align-content-between {
+  align-content: space-between;
+}
+.align-content-around {
+  align-content: space-around;
+}
+.align-content-stretch {
+  align-content: stretch;
+}
+.align-self-center {
+  align-self: center;
+}
+.align-self-start {
+  align-self: flex-start;
+}
+.align-self-end {
+  align-self: flex-end;
+}
+.align-self-stretch {
+  align-self: stretch;
+}
+.align-self-baseline {
+  align-self: baseline;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.justify-content-around {
+  justify-content: space-around;
+}
+.justify-content-evenly {
+  justify-content: space-evenly;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+.flex-wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.flex-fill {
+  flex: 1 1 auto;
+}
+.flex-grow-0 {
+  flex-grow: 0;
+}
+.flex-grow-1 {
+  flex-grow: 1;
+}
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+.flex-shrink-1 {
+  flex-shrink: 1;
+}
+.flex-grow-2 {
+  flex-grow: 2;
+}
+.flex-grow-3 {
+  flex-grow: 3;
+}
+
+@media screen and (max-width: 527px) {
+  .common-button {
+    font-size: 14px;
+  }
+  .button-outline {
+    font-size: 14px;
+  }
+}
