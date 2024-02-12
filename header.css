@@ -434,3 +434,21 @@ i.bx.bx-menu.toggle-navbar {
   color: #fff;
   background-color: #9b0242;
 }
+
+@media screen and (max-width: 1050px) {
+  nav .nav-menu.show {
+    left: 0 !important;
+  }
+}
+
+
+@media screen and (max-width: 1050px) {
+  nav .nav-menu > li .ddropdown-menu.show {
+    left: 0 !important;
+  }
+}
+
+.bx-x::before {
+  content: "\eef0" !important;
+  font-size: 40px !important;
+}
