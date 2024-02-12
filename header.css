@@ -437,18 +437,18 @@ i.bx.bx-menu.toggle-navbar {
 
 @media screen and (max-width: 1050px) {
   nav .nav-menu.show {
-    left: 0 !important;
+    left: 0;
   }
 }
 
 
 @media screen and (max-width: 1050px) {
   nav .nav-menu > li .ddropdown-menu.show {
-    left: 0 !important;
+    left: 0;
   }
 }
 
 .bx-x::before {
-  content: "\eef0" !important;
-  font-size: 40px !important;
+  content: "\eef0";
+  font-size: 40px;
 }
